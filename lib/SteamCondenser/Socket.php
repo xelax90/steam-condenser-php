@@ -44,7 +44,7 @@ abstract class Socket {
 
     /**
      * The socket itself
-     * @var resource
+     * @var resource|\Socket
      */
     protected $socket;
 

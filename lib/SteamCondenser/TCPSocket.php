@@ -11,6 +11,7 @@
 namespace SteamCondenser;
 
 use SteamCondenser\Exceptions\SocketException;
+use SteamCondenser\Socket as SteamCondenserSocket;
 
 /**
  * This class represents a TCP socket
@@ -20,7 +21,7 @@ use SteamCondenser\Exceptions\SocketException;
  * @author  Sebastian Staudt
  * @package steam-condenser
  */
-class TCPSocket extends Socket {
+class TCPSocket extends SteamCondenserSocket {
 
     /**
      * Connects the TCP socket to the host with the given IP address and port
